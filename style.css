@@ -219,6 +219,41 @@ h1{
 
 }
 
+@media (max-width: 320px){
+    .split{
+        min-height: 80vh;
+    }
+    h1{
+        font-size: 35px;
+        letter-spacing: 0.1px;
+    }
+    .split.left{
+        background-position: left 450px center;
+    }
+    .split.right{
+        background-position: right 450px center;
+    }
+    .active-left .left{
+        width : 60%;
+        background-position: right -395px center;
+    }
+    .active-left .right{
+        width : 40%;
+        background-position: left -95px center;
+    }
+    .active-right .right{
+        width: 65%;
+        background-position: left 270px center;
+    }
+    .active-right .left{
+        width: 35%;
+        background-position: right -275px center;
+    }
+    button{
+        margin-top: 300px;
+    }
+
+}
 
 .left,.right{
     transition: width 2s ease-in-out;
