@@ -68,6 +68,7 @@ h1{
 .active-left .left{
     width:75%;
     background-position: left 105px top;
+    background-size: ;
     overflow:hidden;
 }
 
@@ -87,8 +88,20 @@ h1{
     width: 25%;
     background-position: right -90px top;
 }
-
-
+@media (max-width:1000px){
+    h1{
+        font-size: 75px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 10px 20px;
+        border: 2px solid;
+    }
+    .split.left{
+        background-position: right -90px top;
+    }
+    
+}
  @media (max-width: 1100px){
     
     h1{
@@ -109,7 +122,7 @@ h1{
     
     .active-left .left{
         width:80%;
-        background-position: left 0px top;
+        background-position: left -90px top;
         overflow:hidden;
     }
 
@@ -129,56 +142,22 @@ h1{
     }
 
 }
-
-@media  (max-width: 1000px) {
-    .active-left .left{
-        width:75%;
-        background-position: left -50px top;
-        overflow:hidden;
-    }
-    .active-left .right{
-        width:25%;
-        background-position: right -100px top;
-    }
-    .active-right .left{
-        width: 25%;
-        background-position: right -150px top;
-    }
-
-    .active-right .right{
-        width: 75%;
-        background-position: left -145px top;
-    }
+ @media (max-width:830px){
     h1{
-        font-size: 50px;
+        font-size: 5rem;
     }
+    .btn{
+        font-size: 20px;
+        padding: 10px 20px;
+        border: 2px solid;
+        margin-top: 300px;
+    }
+    
+} 
 
-}
-
-
-
-@media (max-width: 400px){
-    h1{
-        font-size: 34px;
-        letter-spacing: 0.3px;
-    }
-    .active-left .left{
-        width : 65%;
-        background-position: right -480px center;
-    }
-    .active-left .right{
-        width : 35%;
-        background-position: right 680px center;
-    }
-    .active-right .right{
-        width: 65%;
-        background-position: left 730px center;
-    }
-    .active-right .left{
-        width: 35%;
-    }
+@media(max-width:480px){
     button{
-        margin-top: 400px;
+        margin-top: 4rem;
     }
     .btn{
         font-size: 15px;
@@ -186,73 +165,6 @@ h1{
         border: 1px solid;
         border-radius: 3px;
     }
-
-}
-
-@media (max-width: 380px){
-    .split{
-        min-height: 80vh;
-    }
-    h1{
-        font-size: 35px;
-        letter-spacing: 0.1px;
-    }
-    .active-left .left{
-        width : 60%;
-        background-position: right -430px center;
-    }
-    .active-left .right{
-        width : 40%;
-        background-position: right 640px center;
-    }
-    .active-right .right{
-        width: 65%;
-        background-position: left 635px center;
-    }
-    .active-right .left{
-        width: 35%;
-        background-position: left 225px center;
-    }
-    button{
-        margin-top: 300px;
-    }
-
-}
-
-@media (max-width: 320px){
-    .split{
-        min-height: 80vh;
-    }
-    h1{
-        font-size: 35px;
-        letter-spacing: 0.1px;
-    }
-    .split.left{
-        background-position: left 450px center;
-    }
-    .split.right{
-        background-position: right 450px center;
-    }
-    .active-left .left{
-        width : 60%;
-        background-position: right -395px center;
-    }
-    .active-left .right{
-        width : 40%;
-        background-position: left -95px center;
-    }
-    .active-right .right{
-        width: 65%;
-        background-position: left 270px center;
-    }
-    .active-right .left{
-        width: 35%;
-        background-position: right -275px center;
-    }
-    button{
-        margin-top: 300px;
-    }
-
 }
 
 .left,.right{
