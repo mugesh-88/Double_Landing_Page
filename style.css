@@ -147,7 +147,7 @@ h1{
         font-size: 5rem;
     }
     .btn{
-        font-size: 20px;
+        font-size: 40px;
         padding: 10px 20px;
         border: 2px solid;
         margin-top: 300px;
@@ -156,14 +156,22 @@ h1{
 } 
 
 @media(max-width:480px){
+    h1{
+        font-size: 3rem;
+        letter-spacing: .1px;
+    }
     button{
-        margin-top: 4rem;
+        margin-top: 400px;
     }
     .btn{
         font-size: 15px;
         padding: 5px 10px;
         border: 1px solid;
         border-radius: 3px;
+    }
+    .active-left .right{
+        width:25%;
+        background-position: right -100px center;
     }
 }
 
