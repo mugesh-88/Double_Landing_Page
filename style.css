@@ -129,6 +129,7 @@ h1{
     }
 
 }
+
 @media  (max-width: 1000px) {
     .active-left .left{
         width:75%;
@@ -148,13 +149,18 @@ h1{
         width: 75%;
         background-position: left -145px top;
     }
+    h1{
+        font-size: 50px;
+    }
 
 }
 
-@media (max-width: 480px){
+
+
+@media (max-width: 400px){
     h1{
-        font-size: 50px;
-        letter-spacing: 0.5px;
+        font-size: 34px;
+        letter-spacing: 0.3px;
     }
     .active-left .left{
         width : 65%;
@@ -170,6 +176,45 @@ h1{
     }
     .active-right .left{
         width: 35%;
+    }
+    button{
+        margin-top: 400px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 5px 10px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+}
+
+@media (max-width: 380px){
+    .split{
+        min-height: 80vh;
+    }
+    h1{
+        font-size: 35px;
+        letter-spacing: 0.1px;
+    }
+    .active-left .left{
+        width : 60%;
+        background-position: right -430px center;
+    }
+    .active-left .right{
+        width : 40%;
+        background-position: right 640px center;
+    }
+    .active-right .right{
+        width: 65%;
+        background-position: left 635px center;
+    }
+    .active-right .left{
+        width: 35%;
+        background-position: left 225px center;
+    }
+    button{
+        margin-top: 300px;
     }
 
 }
