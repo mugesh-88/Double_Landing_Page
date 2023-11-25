@@ -66,25 +66,28 @@ h1{
 }
 
 .active-left .left{
-    width:70%;
-    background-position: left 85px top;
+    width:75%;
+    background-position: left 105px top;
     overflow:hidden;
 }
 
 .active-left .right{
-    width:30%;
-    background-position: right -200px top;
+    width:25%;
+    background-position: right -70px top;
+}
+
+
+
+.active-right .right{
+    width: 75%;
+    background-position: left -90px top;
 }
 
 .active-right .left{
-    width: 30%;
+    width: 25%;
     background-position: right -90px top;
 }
 
-.active-right .right{
-    width: 70%;
-    background-position: left -110px top;
-}
 
  @media (max-width: 1100px){
     
